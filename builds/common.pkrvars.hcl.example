@@ -11,6 +11,7 @@
 common_vm_version           = 19
 common_tools_upgrade_policy = true
 common_remove_cdrom         = true
+common_vm_destroy           = false
 
 // Template and Content Library Settings
 common_template_conversion         = false

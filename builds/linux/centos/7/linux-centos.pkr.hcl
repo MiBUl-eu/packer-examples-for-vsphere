@@ -107,6 +107,7 @@ source "vsphere-iso" "linux-centos" {
   CPU_hot_plug         = var.vm_cpu_hot_add
   RAM                  = var.vm_mem_size
   RAM_hot_plug         = var.vm_mem_hot_add
+  destroy              = var.common_vm_destroy
   cdrom_type           = var.vm_cdrom_type
   disk_controller_type = var.vm_disk_controller_type
   storage {

@@ -251,6 +251,12 @@ variable "vm_mem_hot_add" {
   default     = false
 }
 
+variable "common_vm_destroy" {
+  type        = bool
+  description = "Delete the virtual machine after the build."
+  default     = false
+}
+
 variable "vm_disk_size" {
   type        = number
   description = "The size for the virtual disk in MB."

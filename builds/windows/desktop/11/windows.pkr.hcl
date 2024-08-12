@@ -85,6 +85,7 @@ source "vsphere-iso" "windows-desktop-pro" {
   CPU_hot_plug         = var.vm_cpu_hot_add
   RAM                  = var.vm_mem_size
   RAM_hot_plug         = var.vm_mem_hot_add
+  destroy              = var.common_vm_destroy
   video_ram            = var.vm_video_ram
   displays             = var.vm_video_displays
   vTPM                 = var.vm_vtpm
